@@ -1,0 +1,28 @@
+main {
+    background-color: #697644;
+}
+
+.Realisation {
+    width: 80%;
+}
+.Realisation article {
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+.Realisation h3 {
+    margin-top: 2%;
+    margin-left: 10%;
+    font-size: 1.5em;
+}
+.Realisation button {
+    margin-left: 20%;
+}
+.Realisation p {
+    margin: 0;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+header h1 {
+    padding-top: 3%;
+}
