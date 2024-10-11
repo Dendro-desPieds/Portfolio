@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex {
+    display: flex;
+}
+.column {
+    flex-direction: column;
+}
+.space-around {
+    justify-content: space-around;
+}
+.space-between {
+    justify-content: space-between;
+}
+.jc-center {
+    justify-content: center;
+}
+.ac-center {
+    align-items: center;
+}
+.flex-start{
+    align-self: flex-start;
+}
+.flex-end{
+    align-self: flex-end;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+/* ----- GLOBAL ----- */
+
+img {
+    width: 100%;
+}
+body {
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 1em;
+}
+h1, h2, h3, h4 {
+    font-family: "Kameron", serif;
+    font-weight: 600;
+}
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-size: 2em;
+}
+
+button {
+    background-color: #ee9919;
+    align-self: center;
+    border-radius: 10px;
+    height: 7vh;
+    width: 15%;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 1.15em;
+    box-shadow: 5px 5px 20px rgb(73, 73, 73), 
+                -2px -2px 20px rgb(255, 255, 255);
+}
+
+/* ----- NAV ----- */
+nav{
+    background-color: #8dc1ad;
+    box-shadow: 0px 10px 21px rgb(85, 85, 85);
+    position: fixed;
+    height: 18vh;
+    z-index: 5;
+}
+.img-logo {
+    width: 9%;
+}
+
+ul {
+    width: 50%;
+}
+nav a {
+    align-self: center;
+    
+    height: 7vh;
+    width: 100%;
+    
+}
+nav button {
+    border-radius: 10px;
+    width: 85%;
+    font-size: 1.15em;
+    background-color: rgb(235, 235, 235);
+}
+
+/* ----- MAIN ----- */
+main .hero-container{
+    height: 18vh;
+}
+
+.Hero {
+        padding: 1%;
+        padding-top: 2%;
+        background-color: #dbe7b6;
+}
+
+.Hero h2 {
+    margin-left: 25%;
+    margin-top: 5vh;
+}
+.Hero button {
+    width: 200px;
+}
+.hero-button {
+    width: 25%;
+}
+.hero-button button {
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+}
+.titre {
+    width: 50%;
+}
+.img-profil{
+    width: 15%;
+    
+}
+.img-profil img {
+    border-radius: 10px;
+}
+
+/* ---------- WHO I AM ---------- */
+
+.WhoIAm {
+    background-color: #697644;
+    height: 40vh;
+}
+.WhoIAm article {
+    margin: 1%;
+}
+.qui-suis-je, .valeur-personnel {
+    background-color: #8dc1ad;
+    height: 35vh;
+    width: 30%;
+    border-radius: 10px;
+}
+.valeur-personnel {
+    width: 20%;
+    justify-content: center;
+    
+}
+.WhoIAm article h3, p{
+    margin-top: 15px;
+    margin: 5%;
+} 
+.img-artwork {
+    width: 32%;
+    z-index: 1;
+}
+.img-icon {
+width: 20%;
+}
+
+/* ---------- TECH N SKILLS ---------- */
+
+.StackSkills {
+background-color: #dbe7b6;
+}
+.img-icon2 {
+    width: 35%;
+    padding-left: 33%;
+}
+.img-logo2 {
+    width: 10%;
+}
+.who-container {
+    width: 30%;
+}
+.tech {
+    width: 60%;
+    text-align: center;
+}
+.tech h2 {
+    margin-top: 2%;
+}
+.tech p {
+    font-size: 1.15em;
+}
+.img-back {
+    background: url(../img/branche.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ---------- HISTORIQUE ---------- */
+
+.Historique {
+    background-color: #697644;
+}
+.Historique article{
+    margin: 2%;
+    margin-left: 15%;
+    width: 80%;
+}
+.Historique h3 {
+    margin-top: 5%;
+    margin-bottom: 3%;
+    margin-left: 8%;
+}
+.Historique p {
+    margin-top: 2%;
+    margin-bottom: 0;
+}
+.Historique a {
+    width: 40%;
+}
+.Historique button {
+    margin-bottom: 2%;
+    width: 70%;
+}
+.histo-container {
+    height: 5vh;
+}
+.projetTech {
+    background-color: #8dc1ad;
+    border-radius: 10px 0 0 10px;
+    width: 60%;
+
+}
+.projetPhy {
+    background-color: #dbe7b6;
+    border-radius: 0 10px 10px 0 ;
+    width: 60%;
+    z-index: 2;
+}
+.artwork {
+    width: 50%;
+    z-index: 2;
+}
+.img-branche, .img-branche2  {
+    background: url(../img/brancheHistoBleu.png);
+    position: relative;
+    width: 30%;
+    height: 20px;
+    left: 70%;
+    bottom: 6%;
+}
+.img-branche2 {
+    background: url(../img/brancheHistoOrange.png);
+    width: 42%;
+}
+
+.chronoTree {
+    width: 50%;
+    background: url(../img/tronc.png);
+    background-repeat: repeat-y;
+}
+.tronc {
+    width: 100%;
+}
+
+/* ---------- CONTACT ---------- */
+
+.Contactez-moi {
+    background-color: #8dc1ad;
+    height: 30vh;
+}
+.Contactez-moi h2 {
+    padding: 2%;
+    padding-left: 20%;
+}
+.Contactez-moi label {
+    margin-bottom: 5%;
+}
+.Contactez-moi button {
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+/* ----- FOOTER ----- */
+
+footer {
+    background-color: #505050;
+}
+footer p {
+    color: #ee9919;
+}
+footer a {
+    color: white;
+}
+footer div {
+    padding: 1%
+}
+.menu a {
+    color: rgb(177, 177, 177);
+}

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robot Punch</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/realisation.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="d-flex space-between">
+            <div class="img-logo">
+                <img src="img/logo.png" alt="logo">
+            </div>
+            <h1>Robot Punch</h1>
+            <ul class="d-flex space-around">
+                <a href="index.html">
+                    <button>Accueil</button>
+                </a>
+                <a href="realisation.html">
+                    <button>Réalisation</button>
+                </a>
+                <a href="#formation">
+                    <button>Formations</button>
+                </a>
+                <a href="experience.html">
+                    <button>Expériences</button>
+                </a>
+                <a href="#contact">
+                    <button>Contact</button>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero-container"></div>
+        <div class="partie-centrale">
+            <br>
+            <section class="top-section">
+                <div class="resume d-flex ac-center">
+                    <div class="img-resume">
+                        <img src="img/RobotPunch/RobotPunchMainMenu.png" alt="La Geste Cupide">
+                    </div>
+                    <div>
+                        <p>Contexte : Projet étudiant</p>
+                        <p>Rôle : Game Designer/Programmer</p>
+                        <p>Genre : Jouet numérique, Shoot them Up, Endless</p>
+                        <p>Support : PC</p>
+                        <p>Moteur : Unity</p>
+                        <p>Taille de l'équipe : 3</p>
+                    </div>
+                </div>
+                <h3>Robot Punch est un jouet numérique développé dans le cadre du projet semestriel de ma 2° année de
+                    formation au Game Design.<br>
+                    Lors de ce projet, j'ai été en charge de la partie Game Design et de la partie Programmation. Le
+                    prototype dont sont tiré les images ainsi que la Documentation sont donc de moi.
+                </h3>
+                <div class="d-flex jc-center">
+                    <p>Télécharger le Game Design Document (GDD)</p>
+                    <a href="rsc/RobotPunch/Robot's Punch GDD.pdf"
+                        download="GDD_RobotPunch"><button>Cliquez-ici</button></a>
+                </div>
+            </section>
+            <section class="core-section">
+                <article class="d-flex jc-center">
+                    <div class="pitch ">
+                        <h3>Pitch</h3>
+                        <p>Dans Robot Punch, le joueur incarne Mr.Robot un robot avec un poing propulsé au lieu des
+                            outils de travail habituelle des autres robots. Le joueur peut se servir de ce poing pour
+                            perturber le travail bien organisé de l'usine.</p>
+                    </div>
+                    <div class="img-real">
+                        <img src="img/RobotPunch/prjGD_RobotPunch1.png" alt="Robot Punch 1">
+                    </div>
+                </article>
+                <article class="d-flex jc-center">
+                    <div class="img-real">
+                        <img src="img/RobotPunch/RobotPunchControl.png" alt="Controle du jeu">
+                    </div>
+                    <div class="mecanique">
+                        <h3>Mécanique</h3>
+                        <p>Le joueur n'a que très peu de mécanique à sa disposition. Il peut déplacer son avatar, le
+                            faire tourner sur lui même et tirer un projectile.
+                            ​<br>
+                            Le tir s'effectue en maintenant le clic gauche de la souris enfoncé puis en le relâchant. Au
+                            plus le poing est chargé, au plus il inflige de dégâts et de propulsion au objets qu'il
+                            touche. Cependant charger l'attaque ralenti fortement les déplacements.
+                            ​<br>
+                            Si le joueur relâche le clic gauche au moment où l'avatar produit un flash, il effectue un
+                            attaque super-charge et projette sa cible à la manière d'une boule de bowling ce qui se
+                            répercute sur les autres ennemis touché et permet de détruire certain murs.
+                        </p>
+                    </div>
+                </article>
+                <article class="d-flex jc-center">
+                    <div class="concept">
+                        <h3>Le Système du jeu</h3>
+                        <p>Le système régissant l'environnent est plus complexe que les mécaniques du fait que l'usine
+                            réponde aux actions du joueur en essayant de maintenir un nombre de robot constant dans
+                            l'usine.
+                            ​<br>
+                            Si le joueur endommage un robot au travail, il se retrouve alors poursuivit par ce dernier.
+                            Si un robot qui poursuit l'avatar passe près d'un autre robot, alors ce n'est plus 1 mais 2
+                            robots qui vont poursuivre le joueur. Au maximum c'est 40 robots qui peuvent poursuivre le
+                            joueur créant ainsi des réactions enchaines lors d'attaque bien placé du joueur.
+                            Mécaniques :
+                            Le joueur n'a que très peu de mécanique à sa disposition. Il peut déplacer son avatar, le
+                            faire tourner sur lui même et tirer un projectile.
+                            ​<br>
+                            Le tir s'effectue en maintenant le clic gauche de la souris enfoncé puis en le relâchant. Au
+                            plus le poing est chargé, au plus il inflige de dégâts et de propulsion au objets qu'il
+                            touche. Cependant charger l'attaque ralenti fortement les déplacements.
+                            ​<br>
+                            Si le joueur relâche le clic gauche au moment où l'avatar produit un flash, il effectue un
+                            attaque super-charge et projette sa cible à la manière d'une boule de bowling ce qui se
+                            répercute sur les autres ennemis touché et permet de détruire certain murs.
+                            A l'inverse, si le joueur élimine trop de robot alors l'usine va essayer de préserver ceux
+                            restant et les fera se replier tout en augmentant la production de nouveaux robots.
+                        </p>
+                    </div>
+                    <div class="img-real">
+                        <img src="img/RobotPunch/prjGD_RobotPunch.png" alt="Robot Punch 2">
+                    </div>
+                </article>
+                <article class="conclusion">
+                    <p>En l'état, le jouet présente encore plusieurs bugs lié au remplacement des placeholders par les
+                        assets finaux et le nombre de comportement des ennemis est assez limité. Mais le jouet présente
+                        de bonne base pour de futur amélioration et est assez fun lorsque tout fonctionne correctement.
+                    </p>
+                </article>
+            </section>
+            <div class="footer-container"></div>
+        </div>
+    </main>
+    <footer>
+        <div class="d-flex space-around">
+            <a href="#">Mentions légales </a>
+            <a href="#"> Autres Question</a>
+        </div>
+        <div class="d-flex space-around">
+            <div class="menu d-flex column">
+                <p> >- Accueil</p>
+                <a href="rsc/CV24_DevFullStack.pdf" download="CV_GuillaumeSedlik">CV</a>
+                <a href="#qui-suis-je">Qui suis-je ?</a>
+                <a href="#stacknskills">Compétences et Technos</a>
+                <a href="#realisation">Historique</a>
+            </div>
+            <div class="menu d-flex column">
+                <p> >- Formations</p>
+                <a href="formation.html">3W Academy</a>
+                <a href="formation.html">ICAN</a>
+                <a href="formation.html">BTS SNIR</a>
+            </div>
+            <div class="menu d-flex column">
+                <p> >- Expériences</p>
+                <a href="experience.html">SARL LIEZ</a>
+                <a href="experience.html">Super U</a>
+                <a href="experience.html">Stage de Coutellerie</a>
+                <a href="experience.html">Digi-Activity</a>
+                <a href="experience.html">Carrefour</a>
+                <a href="experience.html">Institut Curie</a>
+            </div>
+            <div class="menu d-flex column">
+                <p> >- Réalisations</p>
+                <a href="realisation.html#realweb">Web</a>
+                <a href="realisation.html#realjv">Jeux Vidéo</a>
+                <a href="realisation.html#realphy">Autres</a>
+            </div>
+            <a href="index.html#contact"> >- Contact</a>
+        </div>
+    </footer>
+</body>
+
+</html>

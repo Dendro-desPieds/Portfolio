@@ -1,0 +1,134 @@
+body {
+    background-color: #697644;
+}
+
+
+.Realisation {
+    width: 80%;
+}
+.Realisation article {
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+.Realisation h3 {
+    margin-top: 2%;
+    margin-left: 10%;
+    font-size: 1.5em;
+}
+.Realisation a {
+    width: 40%;
+}
+.Realisation button {
+    width: 70%;
+}
+
+.Realisation p {
+    margin: 0;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+header h1 {
+    padding-top: 3%;
+}
+
+/* ----- Projet ----- */
+.top-section h3 {
+    text-align: center;
+}
+.top-section a {
+    width: 30%
+}
+.top-section a button{
+    width: 80%;
+    margin-top: 10%;
+}
+.resume {
+    background-color: #8dc1ad;
+    margin-bottom: 3%;
+    font-size: 1.15em;
+    font-weight: 500;
+    box-shadow: 10px 10px 10px rgb(78, 78, 78)
+}
+.img-resume {
+    width: 60%;
+    margin-left: 2%;
+}
+.partie-centrale {
+    background-color: #dbe7b6   ;
+    width: 70%;
+    margin-left: 15%;
+    font-size: 1.1em;
+}
+.top-section, .core-section {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+.core-section div {
+    align-self: center;
+    width: 45%;
+}
+.core-section h3 {
+    margin-left: 15%;
+}
+.core-section p{
+    text-align: justify;
+    margin-left: 0;
+}
+.mecanique p {
+    margin-left: 5%;
+}
+.concept, .mecanique {
+    margin-top: 2vh;
+}
+.concept ul {
+    width: 90%;
+}
+.conclusion p {
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+.footer-container{
+    height: 1vh;
+}
+
+.core-section .lot-img-coutel {
+    width: 50%;
+}
+.core-section .img-coutel {
+    width: 90%;
+}
+.core-section .coutel {
+    width: 63%;
+}
+
+/* ----- 3D ----- */
+
+.d3 div{
+    width: 100%;
+    margin-top: 3%;
+}
+.d3 p {
+    margin-left: 3%
+}
+.d3 a {
+    align-self: center;
+    width: 20%;
+}
+.d3 a button {
+    width: 100%;
+}
+
+/* ----- WEB ----- */
+
+.web div{
+    width: 90%;
+}
+.web ul {
+    margin-top: 2%;
+    margin-left: 10%;
+}
+.web .techno {
+    width: 40%;
+}
