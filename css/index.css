@@ -36,7 +36,7 @@ img {
     width: 100%;
 }
 body {
-    font-family: "Libre Franklin", sans-serif;
+    font-family: "Karla", sans-serif;
     font-size: 1em;
 }
 h1, h2, h3, h4 {
@@ -56,10 +56,14 @@ button {
     border-radius: 10px;
     height: 7vh;
     width: 15%;
-    font-family: "Libre Franklin", sans-serif;
+    font-family: "Karla", sans-serif;
     font-size: 1.15em;
     box-shadow: 5px 5px 20px rgb(73, 73, 73), 
                 -2px -2px 20px rgb(255, 255, 255);
+}
+button:hover {
+    background-color: #6e470b;
+    color: white;
 }
 
 /* ----- NAV ----- */
@@ -89,6 +93,10 @@ nav button {
     width: 85%;
     font-size: 1.15em;
     background-color: rgb(235, 235, 235);
+}
+nav button:hover {
+    background-color: rgb(65, 65, 65);
+    color: white;
 }
 
 /* ----- MAIN ----- */
