@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
 
 </head>
 
@@ -21,19 +22,11 @@
                 <img src="img/logo.png" alt="logo">
             </div>
             <ul class="d-flex space-around">
-                <a href="index.html">
-                    <button>Accueil</button>
-                </a>
-                <a href="realisation.html">
-                    <button>Réalisation</button>
-                </a>
-                <a href="formation.html">
-                    <button>Formations</button>
-                </a>
-                <a href="experience.html">
-                    <button>Expériences</button>
-                </a>
-                <a href="#contact">
+                <a class="nav-a" href="index.html">Accueil</a>
+                <a class="nav-a" href="realisation.html">Réalisation</a>
+                <a class="nav-a" href="formation.html">Formations</a>
+                <a class="nav-a" href="experience.html">Expériences</a>
+                <a class="nav-button" href="index.html#contact">
                     <button>Contact</button>
                 </a>
             </ul>
@@ -152,13 +145,13 @@
                             <div class="img-icon2">
                                 <img src="img/teamWork.png" alt="icon teamwork">
                             </div>
-                            <p>TeamWork</p>
+                            <p>Travail d'équipe</p>
                         </div>
                         <div>
                             <div class="img-icon2">
                                 <img src="img/fastLearning.png" alt="icon fast learning">
                             </div>
-                            <p>Fast Learner</p>
+                            <p>Adaptabilité</p>
                         </div>
                     </div>
                 </div>
@@ -311,25 +304,28 @@
             <form class="d-flex jc-center" action="https://formspree.io/f/mjkbnqgd" method="POST">
                 <div class="d-flex column">
                     <label>
-                        Nom :
+                        Nom : <br>
                         <input type="text" name="nom" id="nom">
                     </label>
                     <label>
-                        Prenom :
+                        Prenom : <br>
                         <input type="text" name="prenom" id="prenom">
                     </label>
                     <label>
-                        Entreprise :
+                        Entreprise : <br>
                         <input type="text" name="entreprise" id="entreprise">
                     </label>
                     <label>
-                        E-mail :
+                        E-mail : <br>
                         <input type="email" name="email">
                     </label>
                 </div>
-                <label>
-                    Message :
-                </label><textarea name="message"></textarea>
+                <div class="d-flex column">
+                    <label >
+                        Message : 
+                    </label>
+                    <textarea name="message"></textarea>
+                </div>
                 <button type="submit">Envoyé</button>
             </form>
         </section>
@@ -341,20 +337,20 @@
         </div>
         <div class="d-flex space-around">
             <div class="menu d-flex column">
-                <p> >- Accueil</p>
+                <p> -> Accueil</p>
                 <a href="rsc/CV24_DevFullStack.pdf" download="CV_GuillaumeSedlik">CV</a>
-                <a href="#qui-suis-je">Qui suis-je ?</a>
-                <a href="#stacknskills">Compétences et Technos</a>
-                <a href="#realisation">Historique</a>
+                <a href="index.html#qui-suis-je">Qui suis-je ?</a>
+                <a href="index.html#stacknskills">Compétences et Technos</a>
+                <a href="index.html#realisation">Historique</a>
             </div>
             <div class="menu d-flex column">
-                <p> >- Formations</p>
+                <p> -> Formations</p>
                 <a href="formation.html">3W Academy</a>
                 <a href="formation.html">ICAN</a>
                 <a href="formation.html">BTS SNIR</a>
             </div>
             <div class="menu d-flex column">
-                <p> >- Expériences</p>
+                <p> -> Expériences</p>
                 <a href="experience.html">SARL LIEZ</a>
                 <a href="experience.html">Super U</a>
                 <a href="experience.html">Stage de Coutellerie</a>
@@ -363,7 +359,7 @@
                 <a href="experience.html">Institut Curie</a>
             </div>
             <div class="menu d-flex column">
-                <p> >- Réalisations</p>
+                <p> -> Réalisations</p>
                 <a href="realisation.html#realweb">Web</a>
                 <a href="realisation.html#realjv">Jeux Vidéo</a>
                 <a href="realisation.html#realphy">Autres</a>
